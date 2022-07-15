@@ -11,5 +11,18 @@
 
 ### Projeto exclusivo Icarros <> GamaAcademy
 
+### Projeto exclusivo Avanade <> GamaAcademy
+
+#### Publicando na Azure
+
+Passo 1 - Criar um fork do projeto para domínio do mesmo, uso. <br>
+Passo 2 - Provisionar recursos dentro do Azure (App Services) <br>
+    - Devemos informar, resources group, nome da aplicação (o nome deve ser 
+    único), informar run time, informar sistema operacional e selecionar o
+    tamanho / configuração do hardware alocado. <br>
+Passo 3 - Abrir o repositório com o projeto para edição do mesmo.
+Passo 4 - Devemos criar as pastas para criar nossa pipeline
+    Diretórios/arquivo (.github/workflows/prod.yml) <br>
+
 ### Professor Douglas Morais
 #### Desenvolvido com NodeJS | GamaAcademy
