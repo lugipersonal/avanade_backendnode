@@ -24,5 +24,17 @@ Passo 3 - Abrir o repositório com o projeto para edição do mesmo.
 Passo 4 - Devemos criar as pastas para criar nossa pipeline
     Diretórios/arquivo (.github/workflows/prod.yml) <br>
 
+##### Pipeline template:
+
+'''
+name: Pipeline CI/CD - Prod
+
+on:
+  push:
+    branchs:
+      - main
+  workflow_dispatch: 
+'''
+
 ### Professor Douglas Morais
 #### Desenvolvido com NodeJS | GamaAcademy
