@@ -33,7 +33,13 @@ on:
   push:
     branchs:
       - main
-  workflow_dispatch: 
+  workflow_dispatch:   
+
+  jobs:
+    build-and-deploy:
+      name: Iniciando build e deploy
+      runs-on: ubuntu-latest
+      environments: production 
 '''
 
 ### Professor Douglas Morais
