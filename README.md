@@ -35,7 +35,7 @@ on:
       - main
   workflow_dispatch:   
 
-  job:
+  jobs:
     build-and-deploy:
       name: Iniciando build e deploy
       runs-on: ubuntu-latest

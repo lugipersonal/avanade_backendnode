@@ -16,7 +16,7 @@ on:
       - name: Configurando a versão do NodeJS
         uses: actions/setup-node@v1
         with:
-          node-version: "16.x"
+          node-version: '16.x'
       - name: Estamos instalando dependências e compilando o projeto
         run: | 
           npm install
