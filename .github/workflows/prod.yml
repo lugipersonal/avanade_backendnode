@@ -4,7 +4,8 @@ on:
   push:
     branchs:
       - main
-  workflow_dispatch:   
+  workflow_dispatch: 
+
   jobs:
     build-and-deploy:
       name: Iniciando build e deploy
@@ -26,9 +27,3 @@ on:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
-
-
-
-
-
-
